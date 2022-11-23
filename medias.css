@@ -1,0 +1,65 @@
+@media screen and (min-width: 750px) {
+    .responsive-button{
+        display: none;
+    }
+    #nav-ul, #login{
+        display: flex;
+        font-size: 1.5rem;
+    }
+    #nav-ul{
+        list-style: none;
+        gap: 5rem;
+        color: blueviolet;
+    }
+    #login{
+        background-color: blueviolet;
+        padding: 1rem 3rem;
+        border: none;
+        border-radius: .5rem;
+        cursor: pointer;
+    }
+    #login:hover{
+        background-color: #a05ddf;
+    }
+    #login a{
+        color: white;
+    }
+
+    header{
+        width: 80vw;
+        margin: 1rem auto;
+        background-color: white;
+    }
+
+
+
+
+    /*==== SECTION ====*/
+    section{
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        margin: auto;
+    }
+    section img{
+        max-width: 50%;
+    }
+    .info{
+        align-items: flex-start;
+    }
+    .info h1, .info p{
+        text-align: left;
+    }
+    .buttons{
+        width: 80%;
+    }
+    footer{
+        background-color: white;
+        color: blueviolet;
+        font-weight: bold;
+        margin: 2rem 0;
+        position: absolute;
+        width: 100vw;
+        bottom: 0;
+    }
+}
